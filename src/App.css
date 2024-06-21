@@ -1,0 +1,48 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.todo-app {
+  text-align: center;
+  margin: 50px auto;
+  width: 400px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f4f4f4;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed span {
+  text-decoration: line-through;
+}
+
+span {
+  cursor: pointer;
+}
